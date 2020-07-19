@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct MainContent: View {
+struct ContentView: View {
     var body: some View {
         VStack {
             Button("Register", action: click)
@@ -26,6 +26,6 @@ func click() -> Void {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainContent()
+        ContentView()
     }
 }
