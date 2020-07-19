@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74F9B85C24C3CE500090FE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B85B24C3CE500090FE05 /* AppDelegate.swift */; };
+		74F9B85E24C3CE500090FE05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B85D24C3CE500090FE05 /* ContentView.swift */; };
+		74F9B86024C3CE510090FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F9B85F24C3CE510090FE05 /* Assets.xcassets */; };
+		74F9B86324C3CE510090FE05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F9B86224C3CE510090FE05 /* Preview Assets.xcassets */; };
+		74F9B86624C3CE510090FE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F9B86424C3CE510090FE05 /* Main.storyboard */; };
+		74F9B87224C3CE510090FE05 /* BlowfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B87124C3CE510090FE05 /* BlowfishTests.swift */; };
+		74F9B87D24C3CE510090FE05 /* BlowfishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B87C24C3CE510090FE05 /* BlowfishUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74F9B86E24C3CE510090FE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F9B85024C3CE500090FE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F9B85724C3CE500090FE05;
+			remoteInfo = Blowfish;
+		};
+		74F9B87924C3CE510090FE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F9B85024C3CE500090FE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F9B85724C3CE500090FE05;
+			remoteInfo = Blowfish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74F9B85824C3CE500090FE05 /* Blowfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blowfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F9B85B24C3CE500090FE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74F9B85D24C3CE500090FE05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74F9B85F24C3CE510090FE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F9B86224C3CE510090FE05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74F9B86524C3CE510090FE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F9B86724C3CE510090FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F9B86824C3CE510090FE05 /* Blowfish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Blowfish.entitlements; sourceTree = "<group>"; };
+		74F9B86D24C3CE510090FE05 /* BlowfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlowfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F9B87124C3CE510090FE05 /* BlowfishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowfishTests.swift; sourceTree = "<group>"; };
+		74F9B87324C3CE510090FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F9B87824C3CE510090FE05 /* BlowfishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlowfishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F9B87C24C3CE510090FE05 /* BlowfishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowfishUITests.swift; sourceTree = "<group>"; };
+		74F9B87E24C3CE510090FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F9B85524C3CE500090FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F9B86A24C3CE510090FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F9B87524C3CE510090FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74F9B84F24C3CE500090FE05 = {
+			isa = PBXGroup;
+			children = (
+				74F9B85A24C3CE500090FE05 /* Blowfish */,
+				74F9B87024C3CE510090FE05 /* BlowfishTests */,
+				74F9B87B24C3CE510090FE05 /* BlowfishUITests */,
+				74F9B85924C3CE500090FE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74F9B85924C3CE500090FE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F9B85824C3CE500090FE05 /* Blowfish.app */,
+				74F9B86D24C3CE510090FE05 /* BlowfishTests.xctest */,
+				74F9B87824C3CE510090FE05 /* BlowfishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F9B85A24C3CE500090FE05 /* Blowfish */ = {
+			isa = PBXGroup;
+			children = (
+				74F9B85B24C3CE500090FE05 /* AppDelegate.swift */,
+				74F9B85D24C3CE500090FE05 /* ContentView.swift */,
+				74F9B85F24C3CE510090FE05 /* Assets.xcassets */,
+				74F9B86424C3CE510090FE05 /* Main.storyboard */,
+				74F9B86724C3CE510090FE05 /* Info.plist */,
+				74F9B86824C3CE510090FE05 /* Blowfish.entitlements */,
+				74F9B86124C3CE510090FE05 /* Preview Content */,
+			);
+			path = Blowfish;
+			sourceTree = "<group>";
+		};
+		74F9B86124C3CE510090FE05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74F9B86224C3CE510090FE05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74F9B87024C3CE510090FE05 /* BlowfishTests */ = {
+			isa = PBXGroup;
+			children = (
+				74F9B87124C3CE510090FE05 /* BlowfishTests.swift */,
+				74F9B87324C3CE510090FE05 /* Info.plist */,
+			);
+			path = BlowfishTests;
+			sourceTree = "<group>";
+		};
+		74F9B87B24C3CE510090FE05 /* BlowfishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74F9B87C24C3CE510090FE05 /* BlowfishUITests.swift */,
+				74F9B87E24C3CE510090FE05 /* Info.plist */,
+			);
+			path = BlowfishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F9B85724C3CE500090FE05 /* Blowfish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F9B88124C3CE510090FE05 /* Build configuration list for PBXNativeTarget "Blowfish" */;
+			buildPhases = (
+				74F9B85424C3CE500090FE05 /* Sources */,
+				74F9B85524C3CE500090FE05 /* Frameworks */,
+				74F9B85624C3CE500090FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blowfish;
+			productName = Blowfish;
+			productReference = 74F9B85824C3CE500090FE05 /* Blowfish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74F9B86C24C3CE510090FE05 /* BlowfishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F9B88424C3CE510090FE05 /* Build configuration list for PBXNativeTarget "BlowfishTests" */;
+			buildPhases = (
+				74F9B86924C3CE510090FE05 /* Sources */,
+				74F9B86A24C3CE510090FE05 /* Frameworks */,
+				74F9B86B24C3CE510090FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F9B86F24C3CE510090FE05 /* PBXTargetDependency */,
+			);
+			name = BlowfishTests;
+			productName = BlowfishTests;
+			productReference = 74F9B86D24C3CE510090FE05 /* BlowfishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74F9B87724C3CE510090FE05 /* BlowfishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F9B88724C3CE510090FE05 /* Build configuration list for PBXNativeTarget "BlowfishUITests" */;
+			buildPhases = (
+				74F9B87424C3CE510090FE05 /* Sources */,
+				74F9B87524C3CE510090FE05 /* Frameworks */,
+				74F9B87624C3CE510090FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F9B87A24C3CE510090FE05 /* PBXTargetDependency */,
+			);
+			name = BlowfishUITests;
+			productName = BlowfishUITests;
+			productReference = 74F9B87824C3CE510090FE05 /* BlowfishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F9B85024C3CE500090FE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Liam Obrochta";
+				TargetAttributes = {
+					74F9B85724C3CE500090FE05 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					74F9B86C24C3CE510090FE05 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 74F9B85724C3CE500090FE05;
+					};
+					74F9B87724C3CE510090FE05 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 74F9B85724C3CE500090FE05;
+					};
+				};
+			};
+			buildConfigurationList = 74F9B85324C3CE500090FE05 /* Build configuration list for PBXProject "Blowfish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F9B84F24C3CE500090FE05;
+			productRefGroup = 74F9B85924C3CE500090FE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F9B85724C3CE500090FE05 /* Blowfish */,
+				74F9B86C24C3CE510090FE05 /* BlowfishTests */,
+				74F9B87724C3CE510090FE05 /* BlowfishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F9B85624C3CE500090FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F9B86624C3CE510090FE05 /* Main.storyboard in Resources */,
+				74F9B86324C3CE510090FE05 /* Preview Assets.xcassets in Resources */,
+				74F9B86024C3CE510090FE05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F9B86B24C3CE510090FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F9B87624C3CE510090FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F9B85424C3CE500090FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F9B85E24C3CE500090FE05 /* ContentView.swift in Sources */,
+				74F9B85C24C3CE500090FE05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F9B86924C3CE510090FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F9B87224C3CE510090FE05 /* BlowfishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F9B87424C3CE510090FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F9B87D24C3CE510090FE05 /* BlowfishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74F9B86F24C3CE510090FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F9B85724C3CE500090FE05 /* Blowfish */;
+			targetProxy = 74F9B86E24C3CE510090FE05 /* PBXContainerItemProxy */;
+		};
+		74F9B87A24C3CE510090FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F9B85724C3CE500090FE05 /* Blowfish */;
+			targetProxy = 74F9B87924C3CE510090FE05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74F9B86424C3CE510090FE05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F9B86524C3CE510090FE05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F9B87F24C3CE510090FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74F9B88024C3CE510090FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		74F9B88224C3CE510090FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Blowfish/Blowfish.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Blowfish/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Blowfish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lobrochta.Blowfish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		74F9B88324C3CE510090FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Blowfish/Blowfish.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Blowfish/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Blowfish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lobrochta.Blowfish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		74F9B88524C3CE510090FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlowfishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lobrochta.BlowfishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blowfish.app/Contents/MacOS/Blowfish";
+			};
+			name = Debug;
+		};
+		74F9B88624C3CE510090FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlowfishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lobrochta.BlowfishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blowfish.app/Contents/MacOS/Blowfish";
+			};
+			name = Release;
+		};
+		74F9B88824C3CE510090FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlowfishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lobrochta.BlowfishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Blowfish;
+			};
+			name = Debug;
+		};
+		74F9B88924C3CE510090FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlowfishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lobrochta.BlowfishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Blowfish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F9B85324C3CE500090FE05 /* Build configuration list for PBXProject "Blowfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F9B87F24C3CE510090FE05 /* Debug */,
+				74F9B88024C3CE510090FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F9B88124C3CE510090FE05 /* Build configuration list for PBXNativeTarget "Blowfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F9B88224C3CE510090FE05 /* Debug */,
+				74F9B88324C3CE510090FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F9B88424C3CE510090FE05 /* Build configuration list for PBXNativeTarget "BlowfishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F9B88524C3CE510090FE05 /* Debug */,
+				74F9B88624C3CE510090FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F9B88724C3CE510090FE05 /* Build configuration list for PBXNativeTarget "BlowfishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F9B88824C3CE510090FE05 /* Debug */,
+				74F9B88924C3CE510090FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F9B85024C3CE500090FE05 /* Project object */;
+}
