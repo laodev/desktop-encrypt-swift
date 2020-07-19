@@ -8,16 +8,24 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainContent: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            Button("Register", action: click)
+            Button("Register", action: click)
+        }
+        .frame(minWidth: 0, maxWidth: 64, minHeight: 0, maxHeight: .infinity)
     }
+    
+}
+
+func click() -> Void {
+    return
 }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainContent()
     }
 }
