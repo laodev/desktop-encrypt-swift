@@ -14,7 +14,7 @@
 		74F9B86624C3CE510090FE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F9B86424C3CE510090FE05 /* Main.storyboard */; };
 		74F9B87224C3CE510090FE05 /* BlowfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B87124C3CE510090FE05 /* BlowfishTests.swift */; };
 		74F9B87D24C3CE510090FE05 /* BlowfishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B87C24C3CE510090FE05 /* BlowfishUITests.swift */; };
-		74F9B88E24C4CBBE0090FE05 /* ButtonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B88D24C4CBBE0090FE05 /* ButtonNav.swift */; };
+		74F9B88E24C4CBBE0090FE05 /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B88D24C4CBBE0090FE05 /* Navbar.swift */; };
 		74F9B89124C4CBFF0090FE05 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B89024C4CBFF0090FE05 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,7 @@
 		74F9B87824C3CE510090FE05 /* BlowfishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlowfishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F9B87C24C3CE510090FE05 /* BlowfishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowfishUITests.swift; sourceTree = "<group>"; };
 		74F9B87E24C3CE510090FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74F9B88D24C4CBBE0090FE05 /* ButtonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNav.swift; sourceTree = "<group>"; };
+		74F9B88D24C4CBBE0090FE05 /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
 		74F9B89024C4CBFF0090FE05 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,7 +152,7 @@
 		74F9B88B24C4C7D50090FE05 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				74F9B88D24C4CBBE0090FE05 /* ButtonNav.swift */,
+				74F9B88D24C4CBBE0090FE05 /* Navbar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74F9B85C24C3CE500090FE05 /* AppDelegate.swift in Sources */,
-				74F9B88E24C4CBBE0090FE05 /* ButtonNav.swift in Sources */,
+				74F9B88E24C4CBBE0090FE05 /* Navbar.swift in Sources */,
 				7422271D24C52B1E00434CF5 /* ContentView.swift in Sources */,
 				74F9B89124C4CBFF0090FE05 /* AppState.swift in Sources */,
 			);
