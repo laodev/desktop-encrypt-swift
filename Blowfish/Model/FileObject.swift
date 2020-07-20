@@ -8,5 +8,11 @@
 
 import Foundation
 
-struct Data {
+struct FileObject {
+
+    let path: String
+    let fileHandle: FileHandle
+
+    
+    
 }
