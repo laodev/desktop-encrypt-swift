@@ -10,8 +10,18 @@ import SwiftUI
 
 struct EncryptView: View {
     var body: some View {
-        HStack {
-            Text("Temp")
+        VStack{
+            HStack {
+                Button(action: {}){
+                    Text("Open File")
+                }
+                Button(action: {}){
+                    Text("Encrypt")
+                }
+            }
+            Button(action: {}){
+                Text("Download File")
+            }
         }
         .frame(width: 1100, height: 600)
         .background(Color(red: 74 / 255, green: 74 / 255, blue: 74 / 255))
