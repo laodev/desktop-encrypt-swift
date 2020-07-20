@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7401EACB24C5E5A10002A8E0 /* EncryptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401EACA24C5E5A10002A8E0 /* EncryptView.swift */; };
 		7422271D24C52B1E00434CF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422271C24C52B1E00434CF5 /* ContentView.swift */; };
 		74F9B85C24C3CE500090FE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B85B24C3CE500090FE05 /* AppDelegate.swift */; };
 		74F9B86024C3CE510090FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F9B85F24C3CE510090FE05 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7401EACA24C5E5A10002A8E0 /* EncryptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptView.swift; sourceTree = "<group>"; };
 		7422271C24C52B1E00434CF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74F9B85824C3CE500090FE05 /* Blowfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blowfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F9B85B24C3CE500090FE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				7422271C24C52B1E00434CF5 /* ContentView.swift */,
+				7401EACA24C5E5A10002A8E0 /* EncryptView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7401EACB24C5E5A10002A8E0 /* EncryptView.swift in Sources */,
 				74F9B85C24C3CE500090FE05 /* AppDelegate.swift in Sources */,
 				74F9B88E24C4CBBE0090FE05 /* Navbar.swift in Sources */,
 				7422271D24C52B1E00434CF5 /* ContentView.swift in Sources */,

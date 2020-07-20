@@ -13,7 +13,11 @@ struct ContentView: View {
         HStack{
             Navbar()
             VStack {
-                Text("test")
+                Rectangle()
+                .fill(Color(red: 96 / 255, green: 96 / 255, blue: 96 / 255))
+                .cornerRadius(20)
+                .frame(width: 1224, height: 720, alignment: .leading)
+                    .padding(.leading, 30)
             }
         }
         .frame(width: 1366, height: 768, alignment: .leading)
