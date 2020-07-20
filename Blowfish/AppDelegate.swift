@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         // Create the window and set the content view. 
         window = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 1440, height: 1024),
+            contentRect: NSRect(x: 0, y: 0, width: 1366, height: 768),
             styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
             backing: .buffered, defer: false)
         window.center()
@@ -37,3 +37,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 }
 
+
+struct AppDelegate_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
