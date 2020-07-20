@@ -13,24 +13,17 @@ struct Navbar: View {
         
         VStack {
             VStack {
-                Button(action: onClickOpen) {
-                    Image("folder")
-                        .renderingMode(.template)
-                }
-                .buttonStyle(PlainButtonStyle())
-                .frame(width: 64, height: 70, alignment: .center)
- 
                 Button(action: onClickEncrypt) {
                     Image("encrypt")
                             .renderingMode(.template)
                     }
-                    .frame(width: 64, height: 70, alignment: .center)
+                    .frame(width: 64, height: 60, alignment: .bottom)
                     .buttonStyle(PlainButtonStyle())
                 Button(action: onClickDecrypt) {
                     Image("decrypt")
                             .renderingMode(.template)
                     }
-                    .frame(width: 64, height: 70, alignment: .center)
+                    .frame(width: 64, height: 60, alignment: .bottom)
                     .buttonStyle(PlainButtonStyle())
                 Button(action: onClickSettings) {
                     Image("settings")
