@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7401EACB24C5E5A10002A8E0 /* EncryptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401EACA24C5E5A10002A8E0 /* EncryptView.swift */; };
+		7401EACF24C6179B0002A8E0 /* FileObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401EACE24C6179B0002A8E0 /* FileObject.swift */; };
 		7422271D24C52B1E00434CF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422271C24C52B1E00434CF5 /* ContentView.swift */; };
 		74F9B85C24C3CE500090FE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B85B24C3CE500090FE05 /* AppDelegate.swift */; };
 		74F9B86024C3CE510090FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F9B85F24C3CE510090FE05 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		7401EACA24C5E5A10002A8E0 /* EncryptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptView.swift; sourceTree = "<group>"; };
+		7401EACE24C6179B0002A8E0 /* FileObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileObject.swift; sourceTree = "<group>"; };
 		7422271C24C52B1E00434CF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74F9B85824C3CE500090FE05 /* Blowfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blowfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F9B85B24C3CE500090FE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7401EACC24C617860002A8E0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7401EACD24C6178C0002A8E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7401EACE24C6179B0002A8E0 /* FileObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7401EAD024C6183D0002A8E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		74F9B84F24C3CE500090FE05 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +128,8 @@
 		74F9B85A24C3CE500090FE05 /* Blowfish */ = {
 			isa = PBXGroup;
 			children = (
+				7401EAD024C6183D0002A8E0 /* Controller */,
+				7401EACD24C6178C0002A8E0 /* Model */,
 				74F9B88F24C4CBDC0090FE05 /* StateManager */,
 				74F9B88A24C4C7C20090FE05 /* UI */,
 				74F9B85B24C3CE500090FE05 /* AppDelegate.swift */,
@@ -171,6 +197,7 @@
 		74F9B88F24C4CBDC0090FE05 /* StateManager */ = {
 			isa = PBXGroup;
 			children = (
+				7401EACC24C617860002A8E0 /* New Group */,
 				74F9B89024C4CBFF0090FE05 /* AppState.swift */,
 			);
 			path = StateManager;
@@ -308,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7401EACB24C5E5A10002A8E0 /* EncryptView.swift in Sources */,
+				7401EACF24C6179B0002A8E0 /* FileObject.swift in Sources */,
 				74F9B85C24C3CE500090FE05 /* AppDelegate.swift in Sources */,
 				74F9B88E24C4CBBE0090FE05 /* Navbar.swift in Sources */,
 				7422271D24C52B1E00434CF5 /* ContentView.swift in Sources */,
