@@ -18,21 +18,25 @@ struct Navbar: View {
                         .renderingMode(.template)
                 }
                 .buttonStyle(PlainButtonStyle())
+                .frame(width: 64, height: 70, alignment: .center)
  
                 Button(action: onClickEncrypt) {
                     Image("encrypt")
                             .renderingMode(.template)
                     }
+                    .frame(width: 64, height: 70, alignment: .center)
                     .buttonStyle(PlainButtonStyle())
                 Button(action: onClickDecrypt) {
                     Image("decrypt")
                             .renderingMode(.template)
                     }
+                    .frame(width: 64, height: 70, alignment: .center)
                     .buttonStyle(PlainButtonStyle())
                 Button(action: onClickSettings) {
                     Image("settings")
                             .renderingMode(.template)
                     }
+                    .frame(width: 64, height: 70, alignment: .center)
                     .buttonStyle(PlainButtonStyle())
             }
             .frame(maxWidth: 64)
@@ -41,6 +45,7 @@ struct Navbar: View {
                     Image("info")
                            .renderingMode(.template)
                 }
+                .frame(width: 64, height: 75, alignment: .center)
                 .buttonStyle(PlainButtonStyle())
             }
             .frame(maxWidth: 64, maxHeight: .infinity, alignment: .bottom)

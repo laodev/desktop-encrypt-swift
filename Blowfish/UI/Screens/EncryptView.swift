@@ -10,7 +10,11 @@ import SwiftUI
 
 struct EncryptView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("Temp")
+        }
+        .frame(width: 1100, height: 600)
+        .background(Color(red: 74 / 255, green: 74 / 255, blue: 74 / 255))
     }
 }
 
