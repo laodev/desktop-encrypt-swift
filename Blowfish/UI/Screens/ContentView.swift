@@ -15,10 +15,10 @@ struct ContentView: View {
             ZStack {
                 Rectangle()
                     .fill(Color(red: 96 / 255, green: 96 / 255, blue: 96 / 255))
-                    .cornerRadius(20)
+                    .cornerRadius(10)
                     .frame(width: 1224, height: 720, alignment: .leading)
                 EncryptView()
-                .cornerRadius(20)
+                .cornerRadius(10)
             }
             .padding(.leading, 30.0)
         }
